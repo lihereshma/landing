@@ -106,10 +106,56 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header .button{ width: 33%;}
+header{ 
+  background-color: #55dffe; 
+  color: #fff;
+}
 
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 50%;
+  margin-top: 50px;
+  padding-bottom: 296px;
+  padding-top: 200px;
+}
 
+h1{
+  text-transform: uppercase;
+  font-size: 35px;
+}
 
+header span{
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 25px 0px;
+}
+
+header span a{
+  border-bottom: 1px solid #75e8ff;
+  color: #fff;
+}
+
+.button{
+  padding: 13px;
+  border-radius: 30px;
+  background-color: #4187ed;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+header .button::before{
+  content: '\f179   ';
+  font-family: FontAwesome;
+}
 
 
 /*=================================
