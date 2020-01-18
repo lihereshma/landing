@@ -137,6 +137,7 @@ header span{
   font-size: 25px;
   text-transform: capitalize;
   margin: 25px 0px;
+  color: #fff;
 }
 
 header span a{
@@ -291,11 +292,40 @@ h2{
 /*=================================
   features section styling starts here
 =================================*/
+.features{
+  padding-top: 112px;
+  text-align: center;
+  padding-bottom: 120px;
+}
 
+.feature_blocks{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.features h2{  margin-bottom: 33px; }
 
+.features p{
+  padding: 0 15% 80px;
+  color: #7b7b7b;
+  line-height: 200%;
+  font-size: medium;
+ }
+.feature_blocks h3{
+  text-transform: uppercase;
+  padding: 20px;
+}
+.feature_blocks ul img{ margin-bottom: 20px;}
 
-
-
+span{ 
+  display: block;
+  color: #b9b9b9;
+  line-height: 150%;
+}
+.feature_blocks ul{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
