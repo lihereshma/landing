@@ -215,10 +215,31 @@ header .button::before{
 /*=================================
   review section styling starts here
 =================================*/
+.review{
+  text-align: center;
+  margin-top: 119px;
+}
 
+h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
 
+.review img{ 
+  border-radius: 100%;
+  margin-bottom: 15px;
+ }
 
+.review span{
+  color: #7b7b7b;
+  text-transform: uppercase;
+  font-size: small;
+}
 
+.review p{
+  color: #7b7b7b;
+}
 
 
 
@@ -265,10 +286,52 @@ header .button::before{
 /*=================================
   footer styling starts here
 =================================*/ 
+.facebook{
+  text-indent: -9999px;
+  display: inline-block;
+}
 
+.facebook::before{
+  content: "\f09a";
+  font-family: FontAwesome;
+  text-indent: 0;
+  float: right;
+}
 
+.twitter{
+  text-indent: -9999px;
+  display: inline-block;
+}
+.twitter::before{
+  content: "\f099";
+  font-family: FontAwesome;
+  text-indent: 0;
+  float: right;
+}
 
+.linkedin{
+  text-indent: -9999px;
+  display: inline-block;
+}
 
+.linkedin::before{
+  content: "\f0e1";
+  font-family: FontAwesome;
+  text-indent: 0;
+  float: right;
+}
+
+.apple{
+  text-indent: -9999px;
+  display: inline-block;
+}
+
+.apple::before{
+  content: "\f179";
+  font-family: FontAwesome;
+  text-indent: 0;
+  float: right;
+}
 
 
 
