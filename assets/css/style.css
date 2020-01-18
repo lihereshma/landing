@@ -292,7 +292,7 @@ h2{
 /*=================================
   features section styling starts here
 =================================*/
-.features{
+.features,.subscribe{
   padding-top: 112px;
   text-align: center;
   padding-bottom: 120px;
@@ -303,9 +303,9 @@ h2{
   justify-content: space-between;
  
 }
-.features h2{  margin-bottom: 33px; }
+.features h2,.subscribe h2{  margin-bottom: 33px; }
 
-.features p{
+.features p,.subscribe p{
   padding: 0 15% 80px;
   color: #7b7b7b;
   line-height: 200%;
@@ -336,11 +336,24 @@ span{
 /*=================================
   subscribe section styling starts here
 =================================*/
+.subscribe{ background-color: #55dffe; }
 
-
-
-
-
+.subscribe input{
+  width: 31%;
+  height: 50px;
+  background-color: #88ecff;
+  color: #000;
+  font-size: medium;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.subscribe .button{
+  width: 29%;
+  height: 23px;
+  text-transform: uppercase;
+  font-size: medium;
+}
 
 
 
