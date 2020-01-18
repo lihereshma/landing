@@ -206,14 +206,15 @@ header .button::before{
   position: absolute;
   top: 34.5%
 }
-.content{
+.simple .content{
   margin: 497px 0px 172px auto;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 51%;
 }
-
+.simple .content h2{ width: 86%;}
 
 
 
@@ -225,7 +226,27 @@ header .button::before{
 /*=================================
   perfect section styling starts here
 =================================*/
+.perfect{
+  position: relative;
+  overflow-y: hidden;
+}
 
+.perfect .wrapper{
+  display: flex;
+}
+.perfect_image{
+  position: absolute;
+  top: 34.5%
+}
+.perfect .content{
+  margin: 497px 0px 172px auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 51%;
+}
+.perfect .content h2{ width: 86%;}
 
 
 
@@ -240,41 +261,27 @@ header .button::before{
 /*=================================
   design section styling starts here
 =================================*/
-.design_image img{ position: relative;}
-
-.design{ 
-  text-align: center;
-  position: relative; 
-  margin-bottom: 119px;
-  background-color: #55dffe;
+.design{
+  position: relative;
+  overflow-y: hidden;
 }
 
-
-.design h2{
-  margin-bottom: 0;
-  padding: 5px;
+.design .wrapper{
+  display: flex;
 }
-
-.design .design_image{
-  width: 40%;
-  left: 0;
+.design_image{
   position: absolute;
-  display: inline-block;
-  top: 24.5%;
+  top: 34.5%
 }
 .design .content{
-  position: absolute;
-  right: 0;
+  margin: 497px 0px 172px auto;
   text-align: left;
-  padding-top: 50px;
-  width: 49%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 51%;
 }
-
-.content p{ 
-  width: 85%;
-  line-height: 150%;
-  color: #7b7b7b;
-}
+.design .content h2{ width: 86%;}
 
 
 
@@ -299,8 +306,8 @@ header .button::before{
 h2{
   font-size: 30px;
   text-transform: capitalize;
-  margin-bottom: 80px;
 }
+.review h2{  margin-bottom: 80px; }
 
 .review img{ 
   width: 100%;
