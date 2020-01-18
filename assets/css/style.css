@@ -321,16 +321,17 @@ h2{
 }
 .feature_blocks ul img{ margin-bottom: 20px;}
 
-span{ 
-  display: block;
+.features span{ 
   color: #b9b9b9;
   line-height: 150%;
 }
+
 .feature_blocks ul{
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
-
+.feature_blocks ul:hover{ background-color: #f7c23c; }
 
 
 /*=================================
