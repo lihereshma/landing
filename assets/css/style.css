@@ -158,6 +158,10 @@ header .button::before{
   font-family: FontAwesome;
 }
 
+.button:hover,.subscribe input:hover{ 
+  background-color: #f7c23c;
+  color: #000;
+}
 
 /*=================================
   Header styling ends here
@@ -292,7 +296,7 @@ h2{
 /*=================================
   features section styling starts here
 =================================*/
-.features,.subscribe{
+.features,.subscribe,footer{
   padding-top: 112px;
   text-align: center;
   padding-bottom: 120px;
@@ -348,15 +352,13 @@ span{
   border-radius: 5px;
   padding-left: 10px;
 }
+
 .subscribe .button{
   width: 29%;
   height: 23px;
   text-transform: uppercase;
   font-size: medium;
 }
-
-
-
 /*=================================
   subscribe section styling ends here
 =================================*/
@@ -369,6 +371,25 @@ span{
 /*=================================
   footer styling starts here
 =================================*/ 
+footer p{ color: #7b7b7b; }
+footer a:hover{ color: #f7c23c;}
+
+footer{
+  font-size: 15px;
+  line-height: 200%;
+}
+
+footer span{ 
+  color: #4187ed;
+  display: inline;
+}
+
+footer a{
+  padding: 20px 20px;
+  font-size: 30px;
+  color: #4187ed;
+}
+
 .facebook{
   text-indent: -9999px;
   display: inline-block;
@@ -385,6 +406,7 @@ span{
   text-indent: -9999px;
   display: inline-block;
 }
+
 .twitter::before{
   content: "\f099";
   font-family: FontAwesome;
@@ -415,9 +437,6 @@ span{
   text-indent: 0;
   float: right;
 }
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
