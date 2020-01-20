@@ -106,11 +106,6 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header .button{ 
-  position: relative;
-  width: 35%;
-}
-
 header{ 
   background-color: #55dffe; 
   color: #fff;
@@ -123,13 +118,17 @@ header .wrapper{
 }
 
 .about{
-  display: flex;
-  flex-direction: column;
-  align-items: left;
   width: 50%;
   margin-top: 50px;
-  padding-bottom: 296px;
-  padding-top: 200px;
+  padding: 200px 0px 296px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;  
+}
+
+header .button{ 
+  width: 35%;
+  position: relative; 
 }
 
 h1{
@@ -138,10 +137,10 @@ h1{
 }
 
 header span{
-  font-size: 25px;
-  text-transform: capitalize;
   margin: 25px 0px;
   color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;  
 }
 
 header span a{
@@ -167,21 +166,19 @@ header .button::before{
   color: #000;
 }
 
-
 .about_image{
-  position: absolute;
-  right: 21;
-  right: 21%;
   top: 21%;
+  right: 21%;
+  position: absolute; 
 }
 
 .about_image a:last-child{
-  position: absolute;
-  display: block;
   top: 12%;
   right: -66%;
+  position: absolute;
+  display: block;
+  
 }
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -194,31 +191,27 @@ header .button::before{
 /*=================================
   simle section styling starts here
 =================================*/
+.simple .content h2{ width: 100%;}
+.simple .wrapper{ display: flex; }
+
 .simple{
   position: relative;
   overflow-y: hidden;
 }
 
-.simple .wrapper{
-  display: flex;
-}
 .simple_image{
-  position: absolute;
-  top: 34.5%
+  top: 34.5%;
+  position: absolute;  
 }
+
 .simple .content{
+  width: 51%;
   margin: 497px 0px 172px auto;
-  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 51%;
+  text-align: left;  
+  align-items: center;  
 }
-.simple .content h2{ width: 86%;}
-
-
-
-
 /*=================================
   simle section styling ends here
 =================================*/
@@ -226,34 +219,28 @@ header .button::before{
 /*=================================
   perfect section styling starts here
 =================================*/
+.perfect .content h2{ width: 100%;}
+.perfect .wrapper{ display: flex; }
+
 .perfect{
   position: relative;
   overflow-y: hidden;
 }
 
-.perfect .wrapper{
-  display: flex;
-}
 .perfect_image{
-  position: absolute;
-  top: 34.5%
+  top: 34.5%;
+  right: 91px;
+  position: absolute; 
 }
+
 .perfect .content{
-  margin: 497px 0px 172px auto;
-  text-align: left;
+  width: 51%; 
+  margin: 497px auto 172px 0px;  
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 51%;
+  text-align: left;  
 }
-.perfect .content h2{ width: 86%;}
-
-
-
-
-
-
-
 /*=================================
   perfect section styling ends here
 =================================*/
@@ -261,18 +248,19 @@ header .button::before{
 /*=================================
   design section styling starts here
 =================================*/
+.design .content h2{ width: 100%;}
+.design .wrapper{ display: flex; }
+
 .design{
   position: relative;
   overflow-y: hidden;
 }
 
-.design .wrapper{
-  display: flex;
-}
 .design_image{
-  position: absolute;
-  top: 34.5%
+  top: 34.5%;
+  position: absolute;  
 }
+
 .design .content{
   margin: 497px 0px 172px auto;
   text-align: left;
@@ -281,10 +269,6 @@ header .button::before{
   align-items: center;
   width: 51%;
 }
-.design .content h2{ width: 86%;}
-
-
-
 /*=================================
   design section styling ends here
 =================================*/
@@ -294,26 +278,26 @@ header .button::before{
 =================================*/
 .review a:not(:last-child){ color: #f7c23c; }
 .review a:last-child{ color: #d8d8d8; }
+.review h2{  margin-bottom: 80px; }
+.review_one,.review_two{ display: none; }
+.slides .active_slide{ color: black; }
 
-
-.review{
-  text-align: center;
-  padding-top: 119px;
-  padding-bottom: 110px;
+.review{ 
+  padding: 119px 0px 110px 0px;
   background-color: #f2f2f2;
+  text-align: center;
 }
 
 h2{
   font-size: 30px;
   text-transform: capitalize;
 }
-.review h2{  margin-bottom: 80px; }
 
 .review img{ 
   width: 100%;
   border-radius: 100%;
   margin-bottom: 15px;
- }
+}
 
 .review span{
   display: block;
@@ -344,8 +328,6 @@ h2{
   font-size: medium;  
 }
 
-.review_one,.review_two{ display: none; }
-
 .slides a{
   text-indent: -9999px;
   display: inline-block;  
@@ -353,15 +335,13 @@ h2{
 
 .slides a::before{
   padding: 10px 0px;
+  float: right;  
   content: '\f111';  
   color: #d8d8d8;
   font-family: FontAwesome;
   font-size: small;
-  text-indent: 0;
-  float: right;  
+  text-indent: 0;  
 }
-
-.slides .active_slide{ color: black; }
 /*=================================
   review section styling ends here
 =================================*/
@@ -369,30 +349,31 @@ h2{
 /*=================================
   features section styling starts here
 =================================*/
+.features h2,.subscribe h2{ margin-bottom: 33px; }
+.feature_blocks ul img{ margin-bottom: 20px;}
+.feature_blocks ul:hover{ background-color: #f7c23c; }
+
 .features,.subscribe,footer,.design{
-  padding-top: 112px;
+  padding: 112px 0px 120px 0px;
   text-align: center;
-  padding-bottom: 120px;
 }
 
 .feature_blocks{
   display: flex;
-  justify-content: space-between;
- 
+  justify-content: space-between; 
 }
-.features h2,.subscribe h2{  margin-bottom: 33px; }
 
 .features p,.subscribe p{
   padding: 0 15% 80px;
   color: #7b7b7b;
   line-height: 200%;
   font-size: medium;
- }
-.feature_blocks h3{
-  text-transform: uppercase;
-  padding: 20px;
 }
-.feature_blocks ul img{ margin-bottom: 20px;}
+
+.feature_blocks h3{
+  padding: 20px;
+  text-transform: uppercase; 
+}
 
 .features span{ 
   color: #b9b9b9;
@@ -400,13 +381,10 @@ h2{
 }
 
 .feature_blocks ul{
-  display: flex;
-  flex-direction: column;
   padding: 20px;
+  display: flex;
+  flex-direction: column;  
 }
-.feature_blocks ul:hover{ background-color: #f7c23c; }
-
-
 /*=================================
   features section styling ends here
 =================================*/
@@ -419,12 +397,12 @@ h2{
 .subscribe input{
   width: 31%;
   height: 50px;
-  background-color: #88ecff;
-  color: #000;
-  font-size: medium;
+  padding-left: 10px;
   border: none;
   border-radius: 5px;
-  padding-left: 10px;
+  background-color: #88ecff;
+  color: #000;
+  font-size: medium;  
 }
 
 .subscribe .button{
@@ -454,8 +432,8 @@ footer{
 }
 
 footer span{ 
-  color: #4187ed;
   display: inline;
+  color: #4187ed;  
 }
 
 footer a{
